@@ -466,9 +466,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 5) return '也太敷衍了吧！';
-        if (cps <= 8) return '音游小枫 鉴定为：菜';
-        if (cps <= 10)  return '……原来也没有小枫想象的那么菜嘛';
-        if (cps <= 15) return '居然到这里了吗……好强！';
+        if (cps <= 5.5) return '音游小枫 鉴定为：菜';
+        if (cps <= 6)  return '……一般';
+        if (cps <= 6.5) return '居然到这里了吗……好强！';
         return '被吃掉了……可恶！';
     }
 
